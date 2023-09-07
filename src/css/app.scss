@@ -1,0 +1,9 @@
+// app global css in SCSS form
+@font-face {
+  font-family: customfont;
+  src: url('../../public/Iranian\ Sans.ttf');
+}
+
+.my-font {
+  font-family: 'customfont';
+}
