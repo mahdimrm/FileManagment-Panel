@@ -61,7 +61,7 @@ export default defineComponent({
 </script>
 
 <template>
-  <q-header elevated class="bg-black">
+  <q-header elevated :class="$q.dark.isActive ? 'bg-secondary' : 'bg-black'">
     <q-toolbar>
       <q-btn flat @click="drawer = !drawer" round dense icon="menu" />
       <q-toolbar-title>FileManagment Panel</q-toolbar-title>
